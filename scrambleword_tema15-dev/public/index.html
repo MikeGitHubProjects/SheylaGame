@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <title>Scramble Word</title>
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- LayerJS -->
+    <script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.min.js"></script>
+    <link
+      href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body lj-type="stage">
+    <canvas id="c"></canvas>
+    <main lj-type="layer" id="welcome" lj-fit-to="responsive-width">
+      <!-- Game First screen -->
+      <section
+        id="welcome-box"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+      >
+        <div class="block prevent-select">
+          <h1 class="fs-1">Sheyla's first game</h1>
+          <a class="btn btn-primary" href="#menu"><span>Menu</span></a>
+        </div>
+      </section>
+
+      <!-- Main menu -->
+      <nav
+        id="menu"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block prevent-select">
+          <h2 class="fs-2">Menu</h2>
+          <ul>
+            <li>
+              <a href="#game-mode" class="btn btn-primary" id="new-game">
+                <span>New game</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn btn-primary disabled"
+                id="continue-button"
+                href="#game-board"
+                ><span>Continue game</span></a
+              >
+            </li>
+            <!-- <li>
+              <a class="btn btn-primary" id="settings-button" href="#settings"
+                ><span>Settings</span></a
+              >
+            </li> -->
+            <li>
+              <a class="btn btn-primary" href="#about"><span>About</span></a>
+            </li>
+          </ul>
+          <a class="btn btn-secondary" href="#welcome-box"><span>Back</span></a>
+        </div>
+      </nav>
+
+      <!-- Settings -->
+      <!-- <section
+        id="settings"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+      >
+        <div class="block prevent-select">
+          <h2 class="fs-2">Settings</h2>
+          <div class="row">
+            <div class="col-md-12 my-4">
+              Settings content
+            </div>
+          </div>
+          <a class="btn btn-secondary" href="#menu"><span>Back</span></a>
+        </div>
+      </section> -->
+
+      <!-- About section -->
+      <section
+        id="about"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+      >
+        <div class="block prevent-select">
+          <h2 class="fs-2">Hey</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Hey, it's me Ingrid</h4><br>
+              <p>
+                I tried my best to develop this game in my free time for this time beeing here with you, Sheyla
+                <strong>, SO LET'S PLAY THIS GAME</strong>.
+              </p>
+              <p>
+                This is <em>my first game for you</em>,we will also learn some romanian words<em> but better</em> visit my country to learn way better.
+              </p>
+              <p>"Hai sa incepem" means <br>"Let's start the adventure"</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#resources" class="btn btn-primary"
+                ><span>Resources</span></a
+              >
+            </div>
+            <div class="col-md-6">
+              <a class="btn btn-secondary" href="#menu"><span>Back</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resources section -->
+      <section
+        id="resources"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+      >
+        <div class="block">
+          <h2 class="fs-2">I used this ❤️ for motivation</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <ul>
+                <li>
+                  Lot of songs❤️
+                  <a
+                    href="https://www.youtube.com/watch?v=ZVNjMfkLeNE"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >BestDjMițu</a
+                  >
+                </li>
+                <li>
+                  More songs❤️
+                  <a
+                    href="https://www.youtube.com/watch?v=7292SQSOPtY"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >BestDjMițu</a
+                  >
+                </li>
+
+                <li>
+                  ❤️❤️❤️
+                  <a
+                    href="https://www.xmasclock.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >Days_Until_Santa</a
+                  >
+                </li>
+
+                <!-- Additional inspiration resources -->
+              </ul>
+            </div>
+          </div>
+          <a class="btn btn-secondary" href="#about"><span>Back</span></a>
+        </div>
+      </section>
+
+      <!-- Game mode selection -->
+      <section
+        id="game-mode"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block prevent-select">
+          <h2 class="fs-2">Game Mode</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="fs-3">Select play category</h3>
+            </div>
+          </div>
+          <div class="row align-items-center mt-2 category-buttons">
+            <div class="col-md-12">
+              <button id="practice" class="btn btn-select active">
+                Practice
+              </button>
+            </div>
+          </div>
+          <div class="row align-items-center my-2 category-buttons">
+            <div class="col-md-4">
+              <button id="animals" class="btn btn-select">Animals</button>
+            </div>
+            <div class="col-md-4">
+              <button id="cars" class="btn btn-select">Cars</button>
+            </div>
+            <div class="col-md-4">
+              <button id="geography" class="btn btn-select">Fruits</button>
+            </div>
+          </div>
+          <a href="#single-input" class="btn btn-primary">Continue</a>
+          <a class="btn btn-secondary" href="#menu"><span>Back</span></a>
+        </div>
+      </section>
+
+      <!-- Single player input -->
+      <section
+        id="single-input"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block prevent-select">
+          <h3 class="fs-3">Player Identity</h3>
+          <div class="row">
+            <div class="col-md-12">
+              <label for="player1-name" class="form-label"
+                >Enter your name</label
+              >
+              <input
+                class="form-control"
+                type="text"
+                id="player1-name"
+                name="player1-name"
+                placeholder="Enter your name"
+              />
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-12">
+              <button
+                data-nextaction="#game-greeting"
+                id="start-game"
+                class="btn btn-primary start-game"
+              >
+                Start Game
+              </button>
+            </div>
+          </div>
+          <a class="btn btn-secondary" href="#game-mode"><span>Back</span></a>
+        </div>
+      </section>
+
+      <!-- Game greeting -->
+      <section
+        id="game-greeting"
+        lj-type="frame"
+        lj-fit-to="responsive-width"
+        lj-start-position="center"
+        lj-transition="down"
+        class="prevent-select"
+      >
+        <div id="start-greeting">Hello</div>
+      </section>
+
+      <!-- Game -->
+      <section
+        id="game-board"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block">
+          <div class="row mb-3">
+            <div class="col-lg-12">
+              <div class="players-names row align-items-center">
+                <h3 class="player1-name-show player-turn">Name</h3>
+              </div>
+            </div>
+            <div class="col-lg-12 mt-1">
+              <h4>Level: <span id="level">easy</span></h4>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-md-6">
+              <p>Tries left: <span id="tries">5</span></p>
+              <div class="tries-img-container">
+                <img
+                  src="./assets/images/tries-5.png"
+                  class="tries-img animate__animated"
+                  id="tries-img"
+                  alt="tries"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p>Words left: <span id="words-left">10/10</span></p>
+            </div>
+          </div>
+          <div class="row my-md-1 my-0">
+            <div class="gameArea">
+              <h3 class="msg"></h3>
+              <input
+                id="word-guess"
+                type="text"
+                class="form-control fs-4 mb-1"
+                spellcheck="false"
+                autocomplete="off"
+              />
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                  <button id="guess" class="btn btn-primary">Guess</button>
+                </div>
+                <div class="col-md-2 text-md-end">
+                  <button id="hint" class="btn btn-primary">
+                    <i class="fa-solid fa-lightbulb"></i><sub>3</sub>
+                  </button>
+                </div>
+              </div>
+
+              <p class="msgopt hidden fs-4"><strong>Try again</strong></p>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-md-6">
+              <a href="#menu" class="btn btn-secondary"><span>Back</span></a>
+            </div>
+            <div class="col-md-6">
+              <button id="in-game-reset" class="btn btn-warning reset-button">
+                <span>Reset</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Second chance game -->
+      <section
+        id="game-rps-intro"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="fade"
+        class="prevent-select"
+      >
+        <div class="intro">
+          <h1>Rock Paper and Scissors</h1>
+          <button class="btn btn-primary" data-nextaction="#game-rps">
+            Let's Play
+          </button>
+        </div>
+      </section>
+      <section
+        id="game-rps"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        class="prevent-select"
+        lj-transition="down"
+      >
+        <div class="match fadeOut">
+          <h2 class="winner">Choose an option</h2>
+          <div class="hands">
+            <img class="player-hand" src="./assets/images/rock.png" alt="" />
+            <img class="computer-hand" src="./assets/images/rock.png" alt="" />
+          </div>
+          <div class="row mb-2 options">
+            <div class="col-md-4">
+              <button id="rock" class="btn btn-primary rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button id="paper" class="btn btn-primary paper">
+                <i class="fa-solid fa-hand"></i>
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button id="scissors" class="btn btn-primary scissors">
+                <i class="fa-solid fa-hand-scissors"></i>
+              </button>
+            </div>
+          </div>
+          <div class="timer">
+            <p class="time hidden">
+              Time Left: <span><strong></strong>s</span>
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <button
+                data-nextaction="#menu"
+                id="backRPS"
+                class="btn btn-secondary"
+              >
+                <span>Back</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Single player win section -->
+      <section
+        id="win-single"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block prevent-select">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 id="win-single-text">Player 1 wins</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#menu" class="btn btn-primary"><span>Menu</span></a>
+            </div>
+            <div class="col-md-6">
+              <button class="btn btn-warning reset-button">
+                <span>Reset</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Single player lose section -->
+      <section
+        id="lose-single"
+        lj-type="frame"
+        lj-fit-to="fixed"
+        lj-start-position="center"
+        lj-transition="down"
+      >
+        <div class="block prevent-select">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 id="lose-single-text">Player 1 losses</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#menu" class="btn btn-primary"><span>Menu</span></a>
+            </div>
+            <div class="col-md-6">
+              <button class="btn btn-warning reset-button">
+                <span>Reset</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Matrix -->
+    <script src="assets/js/matrix.js"></script>
+    <!-- main game script -->
+    <script src="assets/js/main.js"></script>
+    <!-- bootstrap script -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,492 @@
+{
+  "geography": {
+    "easy": [
+      {
+        "word": "tomato",
+        "hint": "Is a red one also used for salad"
+      },
+
+      {
+        "word": "papaya",
+        "hint": "A sweet fruit, papaya right?"
+      },
+
+      {
+        "word": "orange",
+        "hint": "Orange round form"
+      },
+
+      {
+        "word": "lemons",
+        "hint": "That sour fruit used with tea"
+      },
+
+      {
+        "word": "cherry",
+        "hint": "Little round red fruit"
+      },
+
+      {
+        "word": "banana",
+        "hint": "yellow fruit and sweet"
+      },
+
+      {
+        "word": "mar",
+        "hint": "Romanian name for apple"
+      },
+
+      {
+        "word": "pepene",
+        "hint": "Romanian name for melon"
+      },
+
+      {
+        "word": "piersica",
+        "hint": "Romanian name for peach"
+      },
+
+      {
+        "word": "peach",
+        "hint": "Sweet fruit that has fur on it"
+      }
+    ],
+    "medium": [
+      {
+        "word": "kiwi",
+        "hint": "We only eat that green part"
+      },
+
+      {
+        "word": "mango",
+        "hint": "Fruit that has 2 colors, red and orange"
+      },
+
+      {
+        "word": "capsuna",
+        "hint": "Romanian name for strawberry"
+      },
+
+      {
+        "word": "visina",
+        "hint": "Romanian name for a sour cherry"
+      },
+
+      {
+        "word": "grapes",
+        "hint": "We call them struguri in romania"
+      },
+
+      {
+        "word": "para",
+        "hint": "Romanian name for pear"
+      },
+
+      {
+        "word": "coconut",
+        "hint": "We love to eat Bounty that contains.."
+      },
+
+      {
+        "word": "dragonfruit",
+        "hint": "it is a combination of dragon and fruit"
+      },
+
+      {
+        "word": "blueberry",
+        "hint": "Romanian name for mure, mananca ursul"
+      },
+
+      {
+        "word": "lamaie",
+        "hint": "Romanian name for lemon"
+      }
+    ],
+    "hard": [
+      {
+        "word": "caisa",
+        "hint": "Romanian name, i know... caisa, right?"
+      },
+
+      {
+        "word": "struguri",
+        "hint": "Romanian name for grapes"
+      },
+
+      {
+        "word": "capsuni",
+        "hint": "Romanian name for strawberry"
+      },
+
+      {
+        "word": "mandarina",
+        "hint": "Romanian name for little orange fruit"
+      },
+
+      {
+        "word": "ananas",
+        "hint": "Romanian name for pineapple"
+      },
+
+      {
+        "word": "pruna",
+        "hint": "Romanian name for plum, sau pruna"
+      },
+
+      {
+        "word": "avocado",
+        "hint": "We use it in the morning on a slice of bread"
+      },
+      {
+        "word": "rosie",
+        "hint": "Romanian name for tomato"
+      },
+      {
+        "word": "afine",
+        "hint": "Romanian name for blueberii"
+      },
+      {
+        "word": "dovleac",
+        "hint": "Romanian name for pumkin"
+      }
+    ]
+  },
+  "animals": {
+    "easy": [
+      {
+        "word": "dog",
+        "hint": "It is called bestfriend"
+      },
+      {
+        "word": "cat",
+        "hint": "That animal that say Miau"
+      },
+      {
+        "word": "donkey",
+        "hint": "It's a funny animal that says iHAaa"
+      },
+      {
+        "word": "jaguar",
+        "hint": "Large feline but also a luxurious car."
+      },
+      {
+        "word": "ocelot",
+        "hint": "Wild cat of the Americas."
+      },
+      {
+        "word": "rabbit",
+        "hint": "Fluffy small mammal with long ears."
+      },
+      {
+        "word": "hamster",
+        "hint": "that little fluffy mice"
+      },
+      {
+        "word": "iepure",
+        "hint": "Romanian name for rabbit"
+      },
+      {
+        "word": "fish",
+        "hint": "Sad that people eat him"
+      },
+      {
+        "word": "bird",
+        "hint": "Flys on the sky"
+      }
+    ],
+    "medium": [
+      {
+        "word": "giraffe",
+        "hint": "Tallest, but not heaviest, land mammal, long neck."
+      },
+      {
+        "word": "mosquito",
+        "hint": "That insect that leaves itches, mosquito, right?"
+      },
+      {
+        "word": "Ox",
+        "hint": "Strong one, like you"
+      },
+      {
+        "word": "pisica",
+        "hint": "Romanian name for cat"
+      },
+      {
+        "word": "cheetah",
+        "hint": "Fast running feline."
+      },
+      {
+        "word": "soarece",
+        "hint": "Romanian name for mouse."
+      },
+      {
+        "word": "gazelle",
+        "hint": "Graceful antelope with long horns."
+      },
+      {
+        "word": "hamster",
+        "hint": "Domestic pet rodent."
+      },
+      {
+        "word": "mammoth",
+        "hint": "Large extinct elephant species."
+      },
+      {
+        "word": "panther",
+        "hint": "Black leopard."
+      }
+    ],
+    "hard": [
+      {
+        "word": "elephant",
+        "hint": "Large African animal."
+      },
+      {
+        "word": "elefant",
+        "hint": "Romanian name for elephant"
+      },
+      {
+        "word": "monkey",
+        "hint": "It is a funny one, similar to Mitu, sorry"
+      },
+      {
+        "word": "capybara",
+        "hint": "We use to make jokes with it, capybare memes"
+      },
+      {
+        "word": "dinosaur",
+        "hint": "Prehistoric reptile."
+      },
+      {
+        "word": "kangaroo",
+        "hint": "Australian animal have a pouch called a marsupium."
+      },
+      {
+        "word": "cangur",
+        "hint": "Romanian name for kangaroo"
+      },
+      {
+        "word": "dinozaur",
+        "hint": "Romanian name for dinosaur"
+      },
+      {
+        "word": "ormitoring",
+        "hint": "Ormitoring, that's it "
+      },
+      {
+        "word": "broasca",
+        "hint": "Romanian name for frog"
+      }
+    ]
+  },
+  "cars": {
+    "easy": [
+      {
+        "word": "bmw",
+        "hint": "i have a series 1 BMW"
+      },
+
+      {
+        "word": "polo",
+        "hint": "i used to have one, polo"
+      },
+
+      {
+        "word": "hummer",
+        "hint": "American SUV car brand known for their usage in army"
+      },
+
+      {
+        "word": "toyota",
+        "hint": "the best-selling car brand on the planet"
+      },
+
+      {
+        "word": "suzuki",
+        "hint": "Japanese brand that also makes motorcycles"
+      },
+
+      {
+        "word": "subaru",
+        "hint": "Asian brand with stars in its logo, known for its rally performance"
+      },
+
+      {
+        "word": "pagani",
+        "hint": "Super sport italian brand, it is pagani"
+      },
+
+      {
+        "word": "nissan",
+        "hint": "Japanese brand owned by renault group"
+      },
+
+      {
+        "word": "skoda",
+        "hint": "i know someone that has a skoda, skoda "
+      },
+
+      {
+        "word": "jaguar",
+        "hint": "English car brand with a predatory animal logo"
+      }
+    ],
+    "medium": [
+      {
+        "word": "bentley",
+        "hint": "Luxury brand owned by the VW AG group"
+      },
+
+      {
+        "word": "bugatti",
+        "hint": "French sports car brand owned by VW AG group"
+      },
+
+      {
+        "word": "citroen",
+        "hint": "Creative technologie!"
+      },
+
+      {
+        "word": "ferrari",
+        "hint": "Italian sports brand with a horse as logo"
+      },
+
+      {
+        "word": "volan",
+        "hint": "Romanian name for wheel-drive, we call it covrig"
+      },
+
+      {
+        "word": "hyundai",
+        "hint": "South-Korean brand"
+      },
+
+      {
+        "word": "trabant",
+        "hint": "Known to be made of cartoon"
+      },
+
+      {
+        "word": "renault",
+        "hint": "Known for clio model"
+      },
+
+      {
+        "word": "porsche",
+        "hint": "German brand that stopped making sports cars to escape bankruptcy, also part of VW AG group"
+      },
+
+      {
+        "word": "peugeot",
+        "hint": "brand known as the French lion"
+      }
+    ],
+    "hard": [
+      {
+        "word": "cadillac",
+        "hint": "Cadillac"
+      },
+
+      {
+        "word": "chrysler",
+        "hint": "chrysler"
+      },
+
+      {
+        "word": "cauciuc",
+        "hint": "Romanian name for tyres"
+      },
+
+      {
+        "word": "claxon",
+        "hint": "Romanian word for horn, BEEEP BEEEEP"
+      },
+
+      {
+        "word": "benzina",
+        "hint": "Romanian name for gas, benzina"
+      },
+
+      {
+        "word": "mercedes",
+        "hint": "German luxury brand, known for the increased comfort it offers"
+      },
+
+      {
+        "word": "maserati",
+        "hint": "Italian luxury brand with a trident in its logo"
+      },
+
+      {
+        "word": "radio",
+        "hint": "we listen to for music"
+      },
+
+      {
+        "word": "motor",
+        "hint": "Romanian name for engine"
+      },
+
+      {
+        "word": "diesel",
+        "hint": "it is diesel"
+      }
+    ]
+  },
+  "practice": [
+    {
+      "word": "cadouri",
+      "hint": "Romaian name for gifts, what i did bring to you "
+    },
+
+    {
+      "word": "gifts",
+      "hint": "Something that you received"
+    },
+
+    {
+      "word": "plane",
+      "hint": "I used it to fly for you"
+    },
+
+    {
+      "word": "avion",
+      "hint": "Romanian name for plane"
+    },
+
+    {
+      "word": "pink",
+      "hint": "your color from that hair gift, that is...pink"
+    },
+
+    {
+      "word": "flori",
+      "hint": "romanian name for flowers"
+    },
+
+    {
+      "word": "mama",
+      "hint": "Romanian name for me, mum - mama"
+    },
+    {
+      "word": "mom",
+      "hint": "I am your only sweeet loving mom"
+    },
+
+    {
+      "word": "romania",
+      "hint": "The country i live, came visit with me"
+    },
+
+    {
+      "word": "romania",
+      "hint": "The country i live, came visit with me"
+    },
+
+    {
+      "word": "sibiu",
+      "hint": "The city i live, came visit with me"
+    }
+  ]
+}
